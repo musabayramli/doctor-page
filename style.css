@@ -1,0 +1,132 @@
+:root {
+    --mavi: #6bc2f1;
+}
+
+*{
+    list-style: none;
+}
+.bg-mavi {
+    background-color: var(--mavi);
+}
+
+.txt-mavi {
+    color: var(--mavi);
+}
+
+.bg-transp {
+    background-color: #ffffffcc !important;
+}
+
+.bg-boz {
+    background-color: #f1f1f1;
+}
+.vh80 {
+    min-height: 80vh;
+}
+.vh50 {
+    min-height: 50vh;
+}
+
+.vh40 {
+    min-height: 40vh;
+}
+
+header {
+    background: url('img/headerbg.webp') 57%/cover;
+}
+
+#hekimbaba {
+    width: 100%;
+    max-width: 450px;
+}
+
+#features {
+    background: url('img/feature1.jpg') center/cover;
+}
+
+#emergency {
+    background: url('img/feature2.jpg') center/cover;
+}
+
+#bg-1 {
+    background: url('img/jpg1.jpg') center/cover;
+
+}
+
+#bg-2 {
+    background: url('img/jpg2.jpg') center/cover;
+
+}
+
+#bg-3 {
+    background: url('img/jpg3.jpg') center/cover;
+}
+
+#bg-4 {
+    background: url('img/jpg4.jpg') center/cover;
+}
+
+#bg-5 {
+    background: url('img/jpg5.jpg') center/cover;
+}
+
+#bg-6 {
+    background: url('img/jpg6.jpg') center/cover;
+}
+.vh-10{
+    height: 400px !important;
+}
+.bg-mavi h6 {
+    font: 2em Roboto;
+}
+/* .bg-mavi .carousel-caption{
+    margin-bottom: -100px !important;
+}
+ */
+ .carousel-item{
+    bottom: -250px !important;
+ }
+.carousel-control-prev{
+    background: none !important;
+}
+.carousel-control-next{
+    background: none !important;
+}
+
+.carousel-indicators button{
+    width: 60px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+.carousel-indicators button.active , .carousel-indicators button:hover {
+    width: 76px !important;
+    height: 76px !important; 
+}
+
+#c1{
+    background: url('img/c1.png') center/cover no-repeat;
+}
+
+#c2{
+    background: url('img/c2.png') center/cover no-repeat;
+}
+#c3{
+    background: url('img/c3.png') center/cover no-repeat;
+    width: 76px !important;
+    height: 76px !important;
+}
+#c4{
+    background: url('img/c4.png') center/cover no-repeat;
+}
+#c5{
+    background: url('img/c5.png') center/cover no-repeat;
+}
+.fa-quote-left{
+    font-size: 2em;
+}
+
+
+footer{
+    background: #072035;
+}
